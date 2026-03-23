@@ -28,10 +28,10 @@ cat > Makefile << EOF
 SRCDIR = src/
 SRCS   = src/*.c
 CC 	   = gcc
-TARGET = smartroutes 
+TARGET =
 
 CFLAGS = -Wall -Wextra -O3 
-LDFLAGS = -lX11 -lm
+LDFLAGS = -lX11
 
 # Default target
 all: $(TARGET)
